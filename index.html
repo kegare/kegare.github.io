@@ -40,6 +40,10 @@
         margin-top: 28px;
       }
 
+      .panel-title {
+        font-size: 14px;
+      }
+
       ::selection {
           background: #E0E0E0;
       }
@@ -49,51 +53,334 @@
     </style>
   </head>
 
-  <body>
+  <body id="top">
 
     <div class="container-narrow">
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="./">Mods</a></li>
-          <li><a href="//forum.minecraftuser.jp/viewtopic.php?t=13399" target="_blank">Forum</a></li>
-          <li><a href="//github.com/kegare" target="_blank">GitHub</a></li>
-          <li><a href="//twitter.com/_kegare" target="_blank">Twitter</a></li>
+          <li class="active dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="">
+              Mods <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="smooth" href="#caveworld">Caveworld</a></li>
+              <li><a class="smooth" href="#bedrocklayer">BedrockLayer</a></li>
+              <li><a class="smooth" href="#frozenland">Frozenland</a></li>
+              <li><a class="smooth" href="#sugiforest">SugiForest</a></li>
+              <li><a class="smooth" href="#givingitem">GivingItem</a></li>
+              <li><a class="smooth" href="#craftingex">Crafting EX</a></li>
+              <li><a class="smooth" href="#nickname">Nickname</a></li>
+            </ul>
+          </li>
+          <li><a href="http://forum.minecraftuser.jp/viewtopic.php?t=13399" target="_blank">Forum</a></li>
+          <li><a href="https://github.com/kegare" target="_blank">GitHub</a></li>
+          <li><a href="https://twitter.com/_kegare" target="_blank">Twitter</a></li>
         </ul>
         <h3 class="muted">kegare's Mods</h3>
       </div>
 
       <hr>
 
-      <div class="row-fluid marketing">
-        <div class="span11">
-          <h4>Caveworld</h4>
+      <div id="caveworld" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Caveworld</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.2-v1.2.3.jar">Caveworld 1.2.3 for Minecraft 1.7.2 / Forge Build 1024+</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.6.4-v1.2.3.1.zip">Caveworld 1.2.3.1 for Minecraft 1.6.4 / Forge Build 965</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.6.2-v1.2.3.zip">Caveworld 1.2.3 for Minecraft 1.6.2 / Forge Build 871</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.5.2-v1.1.8.zip">Caveworld 1.1.8 for Minecraft 1.5.2 / Forge Build 738</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/jm1w4xth_e/caveworld" target="_blank">Caveworld Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
           <p>Caveworld ディメンションを追加します。Caveworldは、地下洞窟が延々と広がる世界です。<br />
              地上世界とは異なり、地上が存在しません。最上層と最下層は、岩盤一層で覆われています。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#caveworld-screenshots" data-toggle="collapse">スクリーンショット</a>
+              </div>
+              <div id="caveworld-screenshots" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <img src="https://dl.dropboxusercontent.com/u/51943112/kegare/image/caveworld.png" alt="" class="img-responsive img-rounded">
+                </div>
+              </div>
+              <div class="panel-heading panel-title">
+                <a href="#caveworld-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="caveworld-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルもしくはJARファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.7.2, 1.6.4, 1.6.2, 1.5.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
+      </div>
 
-          <h4>BedrockLayer</h4>
+      <div id="bedrocklayer" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">BedrockLayer</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/bedrocklayer/BedrockLayer_1.7.2-v1.0.6.jar">BedrockLayer 1.0.6 for Minecraft 1.7.2 / Forge Build 1024+</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/bedrocklayer/BedrockLayer_1.6.2-v1.0.6.zip">BedrockLayer 1.0.6 for Minecraft 1.6.2 / Forge Build 871+</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/bedrocklayer/BedrockLayer_1.5.2-v1.0.6.zip">BedrockLayer 1.0.6 for Minecraft 1.5.2 / Forge Build 738</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/saUHhgf72Z/bedrocklayer" target="_blank">BedrockLayer Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
           <p>岩盤を一層のみの平坦に敷き詰められるようにします。ネザーの岩盤にも対応しています。<br />
              生成済みのチャンクにも適用されます。マルチプレイの場合は、サーバ側の導入だけで動作します。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#bedrocklayer-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="bedrocklayer-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルもしくはJARファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.7.2, 1.6.4, 1.6.2, 1.5.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
+      </div>
 
-          <h4>Frozenland</h4>
+      <div id="frozenland" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Frozenland</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/frozenland/Frozenland_1.6.4-v1.0.1.zip">Frozenland 1.0.1 for Minecraft 1.6.4 / Forge Build 953</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/frozenland/Frozenland_1.6.2-v1.0.1.zip">Frozenland 1.0.1 for Minecraft 1.6.2 / Forge Build 871</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/rV4CvDM6Z1/frozenland" target="_blank">Frozenland Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
           <p>Frozenland ディメンションを追加します。Frozenlandは、地表が氷で覆われた世界です。<br />
-             氷に関連するアイテムも追加します。</p>
+             また、氷に関連するアイテムも追加します。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#frozenland-screenshots" data-toggle="collapse">スクリーンショット</a>
+              </div>
+              <div id="frozenland-screenshots" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <img src="https://dl.dropboxusercontent.com/u/51943112/kegare/image/frozenland.png" alt="" class="img-responsive img-rounded">
+                </div>
+              </div>
+              <div class="panel-heading panel-title">
+                <a href="#frozenland-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="frozenland-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+              <div class="panel-heading panel-title">
+                <a href="#frozenland-recipes" data-toggle="collapse">追加アイテム・レシピ</a>
+              </div>
+              <div id="frozenland-recipes" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <img src="https://dl.dropboxusercontent.com/u/51943112/kegare/image/frozenland_recipes.gif" alt="" class="img-responsive">
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.6.4, 1.6.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
+      </div>
 
-          <h4>SugiForest</h4>
-          <p>Sugi Forest バイオームと、杉の木を追加します。また、杉の木材を素材にした建材ブロックも追加します。</p>
+      <div id="sugiforest" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">SugiForest</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/sugiforest/SugiForest_1.6.2-v1.0.0.zip">SugiForest 1.0.0 for Minecraft 1.6.2 / Forge Build 871+</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/4ia8kVL_A2/sugiforest" target="_blank">SugiForest Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
+          <p>Sugi Forest バイオームと、杉の木を追加します。Sugi Forestは、たくさんの杉の木が自生するバイオームです。<br />
+             また、杉の木材を素材にした建材ブロックも追加します。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#sugiforest-screenshots" data-toggle="collapse">スクリーンショット</a>
+              </div>
+              <div id="sugiforest-screenshots" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <img src="https://dl.dropboxusercontent.com/u/51943112/kegare/image/sugiforest.png" alt="" class="img-responsive img-rounded">
+                </div>
+              </div>
+              <div class="panel-heading panel-title">
+                <a href="#sugiforest-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="sugiforest-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.6.4, 1.6.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
+      </div>
 
-          <h4>GivingItem</h4>
+      <div id="givingitem" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">GivingItem</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/givingitem/GivingItem_1.6.2-v1.0.5.zip">GivingItem 1.0.5 for Minecraft 1.6.2 / Forge Build 871+</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/givingitem/GivingItem_1.5.2-v1.0.5.zip">GivingItem 1.0.5 for Minecraft 1.5.2 / Forge Build 738</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/FTZfVjJARA/givingitem" target="_blank">GivingItem Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
           <p>スニークしながら他のプレイヤーを右クリックすることで、手に持ったアイテムを渡すことができます。<br />
              マルチプレイ向けのMODです。サーバ側の導入だけで動作します。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#givingitem-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="givingitem-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.6.4, 1.6.2, 1.5.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
+      </div>
 
-          <h4>Crafting EX</h4>
+      <div id="craftingex" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Crafting EX</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/craftingex/CraftingEX_1.6.2-v1.0.0.zip">Crafting EX 1.0.0 for Minecraft 1.6.2 / Forge Build 871+</a></li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/craftingex/CraftingEX_1.5.2-v1.0.0.zip">Crafting EX 1.0.0 for Minecraft 1.5.2 / Forge Build 738</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/z5Z4Dioxm4/craftingex" target="_blank">Crafting EX Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
           <p>作業台で重複したレシピのアイテムもクラフトできるようにします。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#craftingex-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="craftingex-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.6.4, 1.6.2, 1.5.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
+      </div>
 
-          <h4>Nickname</h4>
+      <div id="nickname" class="panel panel-default">
+        <div class="panel-heading">
+          <div class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Nickname</a><span class="badge pull-right">Universal</span>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">ダウンロード</li>
+              <li><a href="https://dl.dropboxusercontent.com/u/51943112/nickname/Nickname_1.6.2-v1.0.1.zip">Nickname 1.0.1 for Minecraft 1.6.2 / Forge Build 871+</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.dropbox.com/sh/kmjlgugrulmb1be/vbKGyyEogr/nickname" target="_blank">Nickname Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel-body">
           <p>プレイヤーにニックネームを与えます。<br />
              マルチプレイの場合は、サーバ側の導入だけで動作します。</p>
+          <hr>
+          <p>
+            <div class="panel panel-default">
+              <div class="panel-heading panel-title">
+                <a href="#nickname-install" data-toggle="collapse">導入方法</a>
+              </div>
+              <div id="nickname-install" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Minecraft Forge の導入後、このMODのZIPファイルを mods フォルダに加え、Minecraft を実行します。
+                </div>
+              </div>
+              <div class="panel-heading panel-title">
+                <a href="#nickname-command" data-toggle="collapse">ニックネームの与え方</a>
+              </div>
+              <div id="nickname-command" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>チャットで <strong>"@nickname [ニックネーム]"</strong> の形式で発言します。</p>
+                  <p><img src="https://dl.dropboxusercontent.com/u/51943112/kegare/image/nickname.gif" alt="" class="img-responsive img-rounded"></p>
+                  <p>日本語などの、マルチバイト文字にも対応しています。</p>
+                </div>
+              </div>
+            </div>
+          </p>
         </div>
+        <table class="table table-bordered table-striped table-hover">
+          <tr><th>対応バージョン</th><td>1.6.4, 1.6.2</td></tr>
+          <tr><th>前提MOD</th><td>Minecraft Forge</td></tr>
+        </table>
       </div>
+
+      <p class="text-muted">
+        <small>これらのMODのライセンスは全て <a href="http://www.mod-buildcraft.com/MMPL-1.0.txt" target="_blank">Minecraft Mod Public Licence</a> に基づきます。</small>
+
+        <a class="smooth" href="#top"><button class="btn btn-primary btn-sm pull-right"><span class="glyphicon glyphicon-arrow-up"></span> PAGE TOP</button></a>
+      </p>
 
       <hr>
 
@@ -103,7 +390,20 @@
 
     </div>
 
-    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $(function() {
+        $('a[class^=smooth]').click(function() {
+          var speed = 300;
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
   </body>
 </html>
