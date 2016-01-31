@@ -63,6 +63,8 @@
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="#mining_point">採掘ポイント <small>/ Mining Point</small></a></li>
+            <li><a href="#commands">コマンド</a></li>
+            <li><a href="#recipes">レシピ</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -80,7 +82,45 @@
           <p>採掘ポイントを1以上保持していると使用できるコマンドです。<br>
           CaveworldまたはCavernで、@buff と発言すると使用できます。<br>
           使用時に採掘ポイントを消費し、消費したポイント/秒のバフ(ステータス効果)がプレイヤーに付与されます。<br>
-          消費量は、@buff [数値] の形で指定できます。入力した数値の分だけ消費します。</p>
+          消費量は、@buff [数値] の形で指定できます。入力した数値の分だけ消費します。</p><br>
+          <h2 class="sub-header" id="commands">コマンド</h2>
+          <p>Caveworldで追加されるコマンドです。</p>
+          <div class="table-responsive">
+            <table class="table">
+            <thead>
+              <tr>
+                <th>コマンド</th>
+                <th>説明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>/caveworld</td>
+                <td>Caveworld メニューを表示します。メニューからは、バイオームのカスタマイズや鉱脈のカスタマイズ、ディメンションの再生成を呼び出せます。</td>
+              </tr>
+              <tr>
+                <td>/caveworld version</td>
+                <td>Caveworldのバージョン情報を、チャットログ(サーバーログ)に出力します。</td>
+              </tr>
+              <tr>
+                <td>/caveworld forum</td>
+                <td>CaveworldのフォーラムトピックのURLを開きます。</td>
+              </tr>
+              <tr>
+                <td>/caveworld regenerate [true/false]</td>
+                <td>Caveworld ディメンション / Cavern ディメンションの再生成を行います。<br>
+                クライアントで実行した場合は、Caveworldの再生成GUIを表示します。<br>
+                regenerateの後の引数には、バックアップの要否を指定します。省略した場合は、バックアップを行います。</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <br>
+          <h2 class="sub-header" id="recipes">レシピ</h2>
+          <p>Caveworldで追加される補助レシピです。<br>
+          これらはコンフィグで追加の可否を設定できます。</p>
+          <h3>苔石 / 苔石レンガ</h3>
+          <p>苔石は石1個と蔓1個で、苔石レンガは石レンガ1個と蔓1個でクラフトできるようになります。</p>
         <br><hr>
         </div>
       </div>
