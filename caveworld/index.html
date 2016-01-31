@@ -60,6 +60,12 @@
             <li><a href="">モブ</a></li>
             <li><a href="">その他</a></li>
           </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#install">導入方法</a></li>
+            <li><a href="#releases">リリース</a></li>
+            <li><a href="#beta">ベータ</a></li>
+            <li><a href="#alpha">アルファ</a></li>
+          </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Caveworld 2</h1>
@@ -69,7 +75,29 @@
           Caveworld, Cavern の2つのディメンションが追加されます。<br>
           また、いくつかの鉱石や便利なアイテム、レシピ、モブやボスも追加されます。</info></p>
           <br>
-          <h2 class="sub-header">リリース</h2>
+          <h2 class="sub-header" id="install">導入方法</h2>
+          <p>このMODは、<b>Java 7</b>以降を要求します。<br>
+          導入前にJavaのバージョンを確認し、必要に応じてJavaの更新を行ってください。</p>
+          <h3>シングルプレイ</h3>
+          <p>前提MODとして、該当のバージョンのMinecraft Forgeを導入してください。なるべく最新のものを利用されることを推奨します。</p>
+          <ol>
+            <li><a href="#releases">リリース</a>から目的のバージョンのMODファイルをダウンロードします。</li>
+            <li>ダウンロードしたjarファイルを、<u>解凍せずに</u>そのままmodsフォルダへドラッグアンドドロップしてください。</li>
+            <li>Minecraftを起動し、タイトルのModsボタンをクリックしてMODリストを開き、Caveworldの存在を確認したら導入成功です。</li>
+          </ol>
+          <h3>マルチプレイ <small>サーバーに参加して遊ぶ</small></h3>
+          <ol>
+            <li>上記手順を参考に、シングルプレイ用に導入しておきます。</li>
+            <li>目的のサーバーへ接続し、ログインできたなら導入成功です。</li>
+          </ol>
+          <h3>マルチプレイ <small>サーバーを構築する</small></h3>
+          <p>前提MODとして、該当のバージョンのMinecraft Forgeを導入してください。なるべく最新のものを利用されることを推奨します。</p>
+          <ol>
+            <li><a href="#releases">リリース</a>から目的のバージョンのMODファイルをダウンロードします。</li>
+            <li>ダウンロードしたjarファイルを、<u>解凍せずに</u>そのままmodsフォルダへドラッグアンドドロップしてください。</li>
+            <li>Minecraft Serverを起動し、/caveworld コマンドが使用できれば導入成功です。</li>
+          </ol><br>
+          <h2 class="sub-header" id="releases">リリース</h2>
           <p>普通の環境で利用されるユーザーは青いダウンロードボタンからダウンロードしてください。<br>
           開発者向けは、MOD製作者のための開発環境用のMODファイルになります。<br>
           また、バージョンの後に＋と付いているものは、それ以降のバージョンであれば大丈夫です。</p>
@@ -124,10 +152,10 @@
             </table>
           </div>
           
-          <h2 class="sub-header">ベータ</h2>
+          <h2 class="sub-header" id="beta">ベータ</h2>
           現在公開されているリリース直前のビルドはありません。<br>
           <br>
-          <h2 class="sub-header">アルファ</h2>
+          <h2 class="sub-header" id="alpha">アルファ</h2>
           現在公開されている開発段階のビルドはありません。<br>
         </div>
       </div>
@@ -138,5 +166,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/kegare.js"></script>
   </body>
 </html>
