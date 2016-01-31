@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="MinecraftのMOD、Caveworld 2のモブについてのページです。">
+    <meta name="author" content="kegare">
+
+    <title>Caveworld 2 : モブ - kegare's Mods</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/kegare.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">kegare's Mods</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                Mods <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="smooth" href="index.html">Caveworld 2</a></li>
+              </ul>
+            </li>
+            <li><a href="http://forum.minecraftuser.jp/viewtopic.php?t=13399">Forum</a></li>
+            <li><a href="https://twitter.com/_kegare">Twitter</a></li>
+            <li><a href="https://github.com/kegare">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="../index.html">トップページ</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="index.html">Caveworld 2</a></li>
+            <li><a href="blocks.html">ブロック</a></li>
+            <li><a href="items.html">アイテム <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="mobs.html">モブ</a></li>
+            <li><a href="">その他</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#caveman">ケイブマン <small>/ Caveman</small></a></li>
+            <li><a href="#archer_zombie">弓兵ゾンビ <small>/ Archer Zombie</small></a></li>
+            <li><a href="#cavenic_skeleton">ケイブニックスケルトン <small>/ Cavenic Skeleton</small></a></li>
+            <li><a href="#master_cavenic_skeleton">マスターケイブニックスケルトン <small>/ Master Cavenic Skeleton</small></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">モブ</h1>
+          <p><info>Caveworld 2で追加されるモブの説明書きです。</info></p>
+          <h2 class="sub-header" id="caveman">ケイブマン <small>/ Caveman</small></h2>
+          <p>Caveworldのマスコットモブことケイブマンです。<br>
+          コンフィグで、有効的にするか敵性的にするか設定できます。</p>
+          <p><img class="img-responsive img-rounded" src="images/caveman.png"></p>
+          <h3>スポーン条件</h3>
+          <p>CaveworldとCavernに単体でスポーンします。</p>
+          <h3>体力</h3>
+          <p>ハート15個分です。</p>
+          <h3>特性</h3>
+          <p>周囲のドロップを発見すると、即座に回収する習性があります。<br>
+          コンフィグで敵性的の場合は、ケイブマンが手に剣やツールを持っていたら、近くのプレイヤーを攻撃してきます。</p>
+          <h3>ケイブニウムを与える</h3>
+          <p>ケイブニウムを与えてケイブマンの機嫌を良くすると、リュックの中身を見せてくれます。</p><br>
+          <h2 class="sub-header" id="archer_zombie">弓兵ゾンビ <small>/ Archer Zombie</small></h2>
+          <p>弓を持ったゾンビです。</p>
+          <p><img class="img-responsive img-rounded" src="images/archer_zombie.png"></p>
+          <h3>スポーン条件</h3>
+          <p>CaveworldとCavernの光レベル7以下の暗所で不透過ブロックの上にスポーンします。</p>
+          <h3>体力</h3>
+          <p>ゾンビと同じくハート10個分です。</p>
+          <h3>攻撃スタイル</h3>
+          <p>弓を使って矢による遠距離攻撃を仕掛けてきます。<br>
+          しかし、スケルトンほど矢の命中精度は安定せず、当たったり当たらなかったりします。</p><br>
+          <h2 class="sub-header" id="cavenic_skeleton">ケイブニックスケルトン <small>/ Cavenic Skeleton</small></h2>
+          <p>スケルトンの亜種です。</p>
+          <p><img class="img-responsive img-rounded" src="images/cavenic_skeleton.png"></p>
+          <h3>スポーン条件</h3>
+          <p>CaveworldとCavernの光レベル7以下の暗所で不透過ブロックの上にスポーンします。</p>
+          <h3>体力</h3>
+          <p>ハート30～40個分です。個体により、範囲内で変動します。</p>
+          <h3>ドロップ</h3>
+          <p>スケルトンと同じく、骨や弓などをドロップします。<br>
+          それに加えて、ケイブニウムまたは上質なケイブニウムを1個ドロップします。<br>
+          ケイブニックボウを持ったケイブニックスケルトンは、確実にケイブニックボウをドロップします。</p>
+          <h3>攻撃スタイル</h3>
+          <p>プレイヤーが半径8ブロック以内に入ると弓を使って矢による遠距離攻撃を仕掛けてきます。<br>
+          連射スピードは非常に早く、容易に近づくことはできません。</p>
+          <h2 class="sub-header" id="master_cavenic_skeleton">マスターケイブニックスケルトン <small>/ Master Cavenic Skeleton</small></h2>
+          <p>ケイブニックスケルトンの長で、ボスモンスターです。<br>
+          ケイブニックスケルトンより少し大きめで、目が赤いのが特徴です。</p>
+          <h3>スポーン条件</h3>
+          <p>ケイブニックスケルトンがスポーンする際に、低確率でスポーンします。</p>
+          <h3>体力</h3>
+          <p>ハート250～300個分です。個体により、範囲内で変動します。</p>
+          <h3>ドロップ</h3>
+          <p>スケルトンと同じく、骨や弓などをドロップします。<br>
+          それに加えて、上質なケイブニウムを15～25個と、ケイブニックボウをドロップします。</p>
+          <h3>攻撃スタイル</h3>
+          <p>プレイヤーが半径14ブロック以内に入ると弓を使って矢による遠距離攻撃を仕掛けてきます。<br>
+          連射スピードは非常に早く、容易に近づくことはできません。</p>
+        <br><hr>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/kegare.js"></script>
+  </body>
+</html>
