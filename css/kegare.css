@@ -11,6 +11,14 @@ body {
 info {
   font-size: 16px;
 }
+
+::selection {
+  background: #E0E0E0;
+}
+::-moz-selection {
+  background: #E0E0E0;
+}
+
   
 
 /*
