@@ -60,11 +60,17 @@
             <li><a href="">モブ</a></li>
             <li><a href="">その他</a></li>
           </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#mining_pickaxe">採掘ツルハシ <small>/ Mining Pickaxe</small></a></li>
+            <li><a href="#lumbering_axe">伐採斧 <small>/ Lumbering Axe</small></a></li>
+            <li><a href="#digging_shovel">掘削シャベル <small>/ Digging Shovel</small></a></li>
+            <li><a href="#others">その他</a></li>
+          </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">アイテム</h1>
           <p><info>Caveworld 2で追加されるアイテムの説明書きです。</info></p>
-          <h2 class="sub-header">採掘ツルハシ <small>/ Mining Pickaxe</small></h2>
+          <h2 class="sub-header" id="mining_pickaxe">採掘ツルハシ <small>/ Mining Pickaxe</small></h2>
           <p>ケイブニウムと何かのツルハシを素材に作成できるツルハシです。<br>
           正確にはベースのツルハシに一括破壊や範囲破壊といった採掘補助機能を付与するプラグインのようなものです。</p>
           <p><img src="images/mining_pickaxe_recipe.gif"></p>
@@ -98,7 +104,7 @@
           <br>
           また、破壊するブロックの数に応じて、破壊するまでにかかる時間が変わります。<br>
           ただし、等級が付与されているものであれば、等級に応じて補正がかかります。</p>
-          <h2 class="sub-header">伐採斧 <small>/ Lumbering Axe</small></h2>
+          <h2 class="sub-header" id="lumbering_axe">伐採斧 <small>/ Lumbering Axe</small></h2>
           <p>ケイブニウムと何かの斧を素材に作成できる斧です。<br>
           正確にはベースの斧に木こりや一括破壊といった伐採補助機能を付与するプラグインのようなものです。</p>
           <p><img src="images/lumbering_axe_recipe.gif"></p>
@@ -132,7 +138,7 @@
           <br>
           また、破壊するブロックの数に応じて、破壊するまでにかかる時間が変わります。<br>
           ただし、等級が付与されているものであれば、等級に応じて補正がかかります。</p>
-          <h2 class="sub-header">掘削シャベル <small>/ Digging Shovel</small></h2>
+          <h2 class="sub-header" id="digging_shovel">掘削シャベル <small>/ Digging Shovel</small></h2>
           <p>ケイブニウムと何かのシャベルを素材に作成できるシャベルです。<br>
           正確にはベースのシャベルに一括破壊や範囲破壊といった掘削補助機能を付与するプラグインのようなものです。</p>
           <p><img src="images/digging_shovel_recipe.gif"></p>
@@ -163,7 +169,7 @@
           また、破壊するブロックの数に応じて、破壊するまでにかかる時間が変わります。<br>
           ただし、等級が付与されているものであれば、等級に応じて補正がかかります。</p>
           <br>
-          <h2 class="sub-header">その他</h2>
+          <h2 class="sub-header" id="others">その他</h2>
           <p>他にも以下のアイテムが追加されます。</p><br>
           <dl>
             <dt>ケイブニウム</dt>
@@ -181,5 +187,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/kegare.js"></script>
   </body>
 </html>
