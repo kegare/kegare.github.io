@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="MinecraftのMOD、Skylandのブロックについてのページです。">
+    <meta name="description" content="MinecraftのMOD、Skylandのその他についてのページです。">
     <meta name="author" content="kegare">
 
-    <title>Skyland : ブロック - kegare's Mods</title>
+    <title>Skyland : その他 - kegare's Mods</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -57,34 +57,45 @@
           <ul class="nav nav-sidebar">
             <li><a href="index.html">Skyland</a></li>
             <li><a href="dimensions.html">ディメンション</a></li>
-            <li class="active"><a href="blocks.html">ブロック <span class="sr-only">(current)</span></a></li>
+            <li><a href="blocks.html">ブロック</a></li>
             <li><a href="items.html">アイテム</a></li>
-            <li><a href="others.html">その他</a></li>
+            <li class="active"><a href="others.html">その他 <span class="sr-only">(current)</span></a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="#skyrite_ore">スカイライト鉱石 <small>/ Skyrite Ore</small></a></li>
-            <li><a href="#skyrite_block">スカイライトブロック <small>/ Block of Skyrite</small></a></li>
-            <li><a href="#others">その他</a></li>
+            <li><a href="#commands">コマンド</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">ブロック</h1>
-          <p><info>Skylandで追加されるブロックの説明書きです。<br>
-          Skyland 1.0.5以前では、ブロックの追加はありません。</info></p>
-          <h2 class="sub-header" id="skyrite_ore">スカイライト鉱石 <small>/ Skyrite Ore | Skyland 1.1.1以降</small></h2>
-          <p>Skylandに生成される鉱石です。<br>
-          木以上のツルハシで破壊可能で、破壊すると、1個のスカイライトをドロップします。</p>
-          <p><img class="img-responsive img-rounded" src="images/skyrite_ore.png"></p>
-          <h2 class="sub-header" id="skyrite_block">スカイライトブロック <small>/ Block of Skyrite | Skyland 1.1.1以降</small></h2>
-          <p>スカイライトを9個固めてクラフトすることで作成できるブロックです。<br>
-          スカイライトブロック1個からスカイライト9個に還元できます。</p>
-          <p><img src="images/skyrite_block_recipe.gif"></p><br>
-          <h2 class="sub-header" id="others">その他</h2>
-          <p>他にも以下のブロックが追加されます。</p><br>
-          <dl>
-            <dt>スカイポータル / Sky Portal <small>| Skyland 1.1.0以降</small></dt>
-            <dd>&nbsp;スカイポータルの内側に設置されるブロックです。通常破壊することはできません。ポータルの枠が破壊されると一緒に破壊されます。</dd>
-          </dl>
+          <h1 class="page-header">その他</h1>
+          <p><info>Skylandで追加されるその他の要素の説明書きです。</info></p>
+          <h2 class="sub-header" id="commands">コマンド</h2>
+          <p>Skylandで追加されるコマンドです。</p>
+          <div class="table-responsive">
+            <table class="table">
+            <thead>
+              <tr>
+                <th>コマンド</th>
+                <th>説明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>/skyland</td>
+                <td>Skylandのバージョン情報を、チャットログ(サーバーログ)に出力します。</td>
+              </tr>
+              <tr>
+                <td>/skyland forum</td>
+                <td>SkylandのフォーラムトピックのURLを開きます。</td>
+              </tr>
+              <tr>
+                <td>/skyland regenerate [true/false]</td>
+                <td>Skyland ディメンションの再生成を行います。<br>
+                クライアントで実行した場合は、Skylandの再生成GUIを表示します。<br>
+                regenerateの後の引数には、バックアップの要否を指定します。省略した場合は、バックアップを行います。</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
         <br><hr>
         </div>
       </div>
