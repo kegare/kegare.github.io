@@ -73,8 +73,8 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Caveworld 2</h1>
           <div class="well">
-              <b>2016/02/07</b>更新 : Caveworld 2 が <b>2.0.8</b> に更新されました<br>
-              変質した木の追加を含むアップデートです
+              <b>2016/02/08</b>更新 : Caveworld 2 が <b>2.0.9</b> に更新されました<br>
+              炭鉱夫ランクの実装を含むアップデートです
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld 2"><br><hr>
 
@@ -132,6 +132,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.0.9</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.0.9.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.0.9-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r209">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.0.8</td>
                   <td>1.7.10</td>
@@ -196,6 +203,37 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r209">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.0.9</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>炭鉱夫ランクを実装しました。ランクは全部で7段階まであります。<br>
+                    採掘ポイントを一定数貯めることにより、ランクが一つずつ上昇していきます。
+                    ランク上昇の際に、採掘ポイントはその分だけ減少します。</li>
+                    <li>コンフィグ"スポナーモブ / Spawner Mobs"をCaveworld ディメンションの設定に追加しました。<br>
+                    生成されるスポナーダンジョンのモブを任意に設定できます。</li>
+                    <li>SextiarySector 2が導入されている場合、Caveworld及びCavernにいるとき、水分が減りやすくなるようにしました。<br>
+                    ただし、"鉄掘り / Iron Miner"以上の炭鉱夫ランクになると影響を受けなくなります。</li>
+                    <li>SextiarySector 2の鉱脈自動登録に対応しました。</li>
+                    <li>SextiarySector 2の鉱石の採掘ポイントの初期設定に対応しました。</li>
+                    <li>ケイブマンとケイブニックスケルトンの初期設定での湧き量を増やしました。</li>
+                    <li>鉱脈自動登録がCavern ディメンションの鉱脈のコンフィグに適用されていない不具合を修正しました。</li>
+                    <li>採掘ポイントの初期設定のタイミングが不適切だった不具合を修正しました。</li>
+                    <li>細かな修正を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r208">
