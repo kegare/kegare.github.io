@@ -65,6 +65,8 @@
           <ul class="nav nav-sidebar">
             <li><a href="#caveworld">Caveworld</a></li>
             <li><a href="#cavern">Cavern</a></li>
+            <li><a href="#aqua_cavern">Aqua Cavern</a></li>
+            <li><a href="#caveland">Caveland</a></li>
             <li><a href="#portals">ポータル</a></li>
             <li><a href="#structures">特殊な構造物</a></li>
           </ul>
@@ -98,16 +100,37 @@
           <h2 class="sub-header" id="cavern">Cavern</h2>
           <p>洞窟だけが生成されるディメンションです。<br>
           峡谷や廃坑、スポナーダンジョンなどは生成されません。<br>
-          それ以外は、Caveworldと同様です。</p><br>
+          それ以外の仕様は、Caveworldと同様です。</p>
+          <h2 class="sub-header" id="aqua_cavern">Aqua Cavern</h2>
+          <p>水没した洞窟が生成されるディメンションです。<br>
+          Cavernと同様に、峡谷や廃坑、スポナーダンジョンなどは生成されません。<br>
+          それ以外の仕様は、Caveworldと同様です。</p>
+          <h3>洞窟</h3>
+          <p>空洞は全て水で構成された広大な洞窟が生成されます。</p>
+          <h3>炭鉱夫ランク</h3>
+          <p>炭鉱夫ランクが、アクアマリン掘り / Aqua Miner 以上の場合、Aqua Cavernで活動しやすくなります。<br>
+          水中にいる際にも、視界が良くなり、地上と変わらないくらいの速度で歩けるようになります。</p>
+          <h2 class="sub-header" id="caveland">Caveland</h2>
+          <p>地上のような洞窟が生成されるディメンションです。<br>
+          このディメンションのバイオームや鉱脈は、コンフィグでカスタマイズすることができません。</p>
+          <h3>洞窟</h3>
+          <p>地上でのバイオームの構成ブロックが適用された洞窟が生成されます。<br>
+          多くのバイオームでは草と土で、砂漠バイオームでは砂と砂岩で構成された洞窟が生成されます。</p>
+          <h3>鉱脈</h3>
+          <p>鉱石はほとんど生成されることはありません。</p>
+          <h3>植物</h3>
+          <p>草花、変質した木や、砂漠の洞窟ではサボテンが自生します。</p><br>
           <h2 class="sub-header" id="portals">ポータル</h2>
-          <p>CaveworldやCavernへは、専用のポータルを作成し、それを介して行き来します。<br>
+          <p>それぞれの洞窟ディメンションへは、専用のポータルを作成し、それを介して行き来します。<br>
           ポータルブロックを右クリックすると、簡単にカスタマイズや再生成などにアクセスできるメニューを開けます。</p>
           <ol>
             <li><b>苔石</b>または<b>苔石レンガ</b>でネザーポータルのようなポータルの外枠を作ります。<small>(最小4x5, 最大23x23)</small></li>
             <li>作ったポータルの外枠の内側で <b>エンダーチェスト</b>または<b>エメラルド</b> を使用します。<br>
             <b>エンダーチェスト</b>を使用した場合は、Caveworldとの行き来ができる<u>Caveworld ポータル</u>、<br>
-            <b>エメラルド</b>を使用した場合は、Cavernとの行き来ができる<u>Cavern ポータル</u>が生成されます。</li>
-            <li>ポータルの内側へ入ると、CaveworldまたはCavern側のポータルへ転送されます。<br>
+            <b>エメラルド</b>を使用した場合は、Cavernとの行き来ができる<u>Cavern ポータル</u>、<br>
+            <b>アクアマリン</b>を使用した場合は、Aqua Cavernとの行き来ができる<u>Aqua Cavern ポータル</u>、<br>
+            <b>ケイブニウム</b>を使用した場合は、Cavelandとの行き来ができる<u>Caveland ポータル</u>、が生成されます。</li>
+            <li>ポータルの内側へ入ると、洞窟ディメンション側のポータルへ転送されます。<br>
             再びポータルへ入ると、元のディメンションへ転送されます。</li>
           </ol>
           <h3>ポータルインベントリ <small>| Caveworld ポータル</small></h3>
