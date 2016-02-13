@@ -78,11 +78,12 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
+              <strong>2016/02/14</strong>更新 : Caveworld 2 が <strong>2.1.3</strong> に更新されました<br>
+              ケイブボーンの仕様変更、一部の環境でクラッシュする不具合の修正を含むアップデートです<br>
+              以前のバージョンから更新する際は、事前に caveworld-general.cfg を削除してください。<br>
+              <hr>
               <strong>2016/02/13</strong>更新 : Caveworld 2 が <strong>2.1.2</strong> に更新されました<br>
               ケイブニックゾンビ、ケイブニックスパイダーの追加を含むアップデートです
-              <hr>
-              <strong>2016/02/12</strong>更新 : Caveworld 2 が <strong>2.1.1</strong> に更新されました<br>
-              ケイブニッククリーパー、マスターケイブニッククリーパーの追加を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld 2"><br><hr>
 
@@ -126,7 +127,10 @@
           <p>普通の環境で利用されるユーザーは青いダウンロードボタンからダウンロードしてください。<br>
           開発者向けは、MOD製作者のための開発環境用のMODファイルになります。<br>
           また、バージョンの後に＋と付いているものは、それ以降のバージョンであれば大丈夫です。<br>
-          赤く強調表示されたビルドは、重大な不具合を抱えたビルドになります。特別な事情が無ければそれ以外のバージョンをご利用ください。</p>
+          <br>
+          赤く強調表示されたビルドは、重大な不具合を抱えたビルドになります。<br>
+          黄色く強調表示されたビルドは、一部の環境での重大な不具合を抱えたビルドになります。<br>
+          特別な事情が無ければそれ以外のバージョンをご利用ください。</p>
           <div class="table-responsive">
             <table class="table table-striped table-hover">
               <thead>
@@ -140,6 +144,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.1.3</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.1.3.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.1.3-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r213">変更履歴</button></td>
+                </tr>
+                <tr class="warning">
                   <td>Caveworld 2</td>
                   <td>2.1.2</td>
                   <td>1.7.10</td>
@@ -232,6 +243,28 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r213">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.1.3</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>ケイブボーンオプションの仕様を変更し、転送される洞窟ディメンションを選択できるようにしました。<br>
+                    以前のバージョンから更新する際は、caveworld-general.cfg を事前に削除してから更新してください。</li>
+                    <li>一部の環境でクラッシュする不具合を修正しました。</li>
+                    <li>細かな調整を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r212">
