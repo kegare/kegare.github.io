@@ -56,6 +56,7 @@
           </ul>
           <ul class="nav nav-sidebar">
             <li class="active"><a href="index.html">Caveworld 2 <span class="sr-only">(current)</span></a></li>
+            <li><a href="screenshots.html">スクリーンショット</a></li>
             <li><a href="dimensions.html">ディメンション</a></li>
             <li><a href="blocks.html">ブロック</a></li>
             <li><a href="items.html">アイテム</a></li>
@@ -78,17 +79,17 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
-              <strong>2016/02/17</strong>公開 : Caveworld 2 の <strong>2.1.4 ベータ</strong> が公開されました<br>
+              <strong>2016/02/18</strong>公開 : Caveworld 2 が <strong>2.1.4</strong> に更新されました<br>
               クレイジーボスレイド"Cavenia"の実装、Cavelandの霧の実装など多くの更新内容を含むアップデートです<br>
               <hr>
               <strong>2016/02/14</strong>更新 : Caveworld 2 が <strong>2.1.3</strong> に更新されました<br>
               ケイブボーンの仕様変更、一部の環境でクラッシュする不具合の修正を含むアップデートです<br>
               以前のバージョンから更新する際は、事前に caveworld-general.cfg を削除してください<br>
           </div>
-          <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld 2"><br><hr>
+          <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
           <p><info>地上の存在しない、地下だけのディメンションを追加します。<br><br>
-          <strong>Caveworld</strong>, <strong>Cavern</strong>, <strong>Aqua Cavern</strong>, <strong>Caveland</strong> の4つの<strong>洞窟ディメンション</strong>が追加されます。<br>
+          <strong>Caveworld</strong>, <strong>Cavern</strong>, <strong>Aqua Cavern</strong>, <strong>Caveland</strong>, <strong>Cavenia</strong> の5つの<strong>洞窟ディメンション</strong>が追加されます。<br>
           また、いくつかの鉱石や便利なアイテム、レシピ、モブやボスも追加されます。</info></p>
           <br>
           <h2 class="sub-header" id="install">導入方法</h2>
@@ -144,6 +145,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.1.4</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.1.4.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.1.4-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r214">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.1.3</td>
                   <td>1.7.10</td>
@@ -243,6 +251,57 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r214">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.1.4</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>クレイジーボスレイド"Cavenia"を実装しました。<br>
+                    専用ディメンション"Cavenia"に、クレイジーボスが出現します。<br>
+                    体力も非常に多く、攻撃パターンも多彩で凶悪なため、マルチプレイでの複数プレイヤーでの攻略が推奨されます。<br>
+                    マルチプレイでの討伐のためのいくつかの要素が用意されています。<br>
+                    Caveniaは、Cavenia ディメンションの再生成を行うことで何度でもプレイできます。</li>
+                    <li>ボスレイド用洞窟ディメンション"Cavenia"を追加しました。<br>
+                    鉱脈は、ランダマイト鉱石だけが非常に多く生成されます。<br>
+                    Caveniaでは、ランダマイト鉱石を採掘した際のステータスエフェクトが得やすくなっています。</li>
+                    <li>Cavenia ポータルブロックを追加しました。<br>
+                    苔石でポータル枠を作り、内側に 上質なケイブニウム を使用すると、Cavenia ポータルを作成できます。</li>
+                    <li>クレイジーケイブニックスケルトンを追加しました。<br>
+                    マスターケイブニックスケルトンの上位に位置するモンスターで、最初のクレイジーボスモンスターです。</li>
+                    <li>実績"Cavenia"を追加しました。</li>
+                    <li>実績"クレイジーケイブニックスケルトン退治"を追加しました。</li>
+                    <li>コンフィグ"ランダマイトのドロップ"を追加しました。
+                    ランダマイト鉱石からドロップするアイテムを指定できます。</li>
+                    <li>洞窟ディメンションのポータル移動のキャッシュシステムを実装しました。<br>
+                    以前使用したポータルにより確実に、より素早く戻りやすくなる機能です。</li>
+                    <li>コンフィグ"ポータルのキャッシュ"を追加しました。<br>
+                    ポータルのキャッシュシステムを使用するか否かを指定できます。</li>
+                    <li>ランダマイト鉱石のドロップ処理を改良しました。</li>
+                    <li>Cavelandに霧が発生するようにしました。<br>
+                    また、光が全くない状態でも、ある程度先が見えるようになりました。</li>
+                    <li>ケイブニックスケルトンが放つ矢がブロックに刺さった時の消滅時間を更に短くしました。</li>
+                    <li>マスターケイブニックスケルトンの射程を短くしました。</li>
+                    <li>ボスモンスターは洞窟ディメンションのポータルを利用できないようにしました。</li>
+                    <li>耐性のステータスエフェクト(ポーション効果)がついている時は、ケイブニックボウやケイブニックスケルトンからの攻撃での無敵時間無効を無効化することができるようにしました。</li>
+                    <li>炭鉱夫ランク"アクアマリン掘り"以上で有効になる水中での活動支援効果を、Aqua Cavern以外の洞窟ディメンションでも得られるようにしました。</li>
+                    <li>Cavenia ディメンションのテーマ音楽を2曲追加しました。</li>
+                    <li>一部の洞窟ディメンションのデータのセーブが行われていない不具合を修正しました。</li>
+                    <li>マルチプレイにおいて、洞窟ディメンションのデータの同期が正常に行われていない不具合を修正しました。</li>
+                    <li>マスターケイブニックスケルトンが弓を持たずスポーンし、無力なことがある不具合を修正しました。</li>
+                    <li>非常に多くの細かな修正・調整を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r213">
@@ -612,7 +671,8 @@
           </div>
           
           <h2 class="sub-header" id="beta">ベータ</h2>
-          <p>リリース直前のビルドです。不具合はほとんど存在しませんが、万が一残っていた場合、製作者までご報告ください。<br>
+          <p>現在公開されているリリース直前のビルドはありません。
+          <!--<p>リリース直前のビルドです。不具合はほとんど存在しませんが、万が一残っていた場合、製作者までご報告ください。<br>
           また、正式リリース時に一部の仕様が変更されたり、残っていた不具合が修正されることがあります。<br>
           正式リリース版が公開されたら、そちらに更新していただくようお願いします。</p>
           <div class="table-responsive">
@@ -636,58 +696,7 @@
                 </tr>
               </tbody>
             </table>
-          </div>
-          
-          <div class="modal fade" id="r214b">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title">Caveworld 2.1.4 Beta</h4>
-                </div>
-                <div class="modal-body">
-                  <ul>
-                    <li>クレイジーボスレイド"Cavenia"を実装しました。<br>
-                    専用ディメンション"Cavenia"に、クレイジーボスが出現します。<br>
-                    体力も非常に多く、攻撃パターンも多彩で凶悪なため、マルチプレイでの複数プレイヤーでの攻略が推奨されます。<br>
-                    マルチプレイでの討伐のためのいくつかの要素が用意されています。<br>
-                    Caveniaは、Cavenia ディメンションの再生成を行うことで何度でもプレイできます。</li>
-                    <li>ボスレイド用洞窟ディメンション"Cavenia"を追加しました。<br>
-                    鉱脈は、ランダマイト鉱石だけが非常に多く生成されます。<br>
-                    Caveniaでは、ランダマイト鉱石を採掘した際のステータスバフが得やすくなっています。</li>
-                    <li>Cavenia ポータルブロックを追加しました。<br>
-                    苔石でポータル枠を作り、内側に 上質なケイブニウム を使用すると、Cavenia ポータルを作成できます。</li>
-                    <li>クレイジーケイブニックスケルトンを追加しました。<br>
-                    マスターケイブニックスケルトンの上位に位置するモンスターで、最初のクレイジーボスモンスターです。</li>
-                    <li>実績"Cavenia"を追加しました。</li>
-                    <li>実績"クレイジーケイブニックスケルトン退治"を追加しました。</li>
-                    <li>コンフィグ"ランダマイトのドロップ"を追加しました。
-                    ランダマイト鉱石からドロップするアイテムを指定できます。</li>
-                    <li>洞窟ディメンションのポータル移動のキャッシュシステムを実装しました。<br>
-                    以前使用したポータルにより確実に、より素早く戻りやすくなる機能です。</li>
-                    <li>コンフィグ"ポータルのキャッシュ"を追加しました。<br>
-                    ポータルのキャッシュシステムを使用するか否かを指定できます。</li>
-                    <li>ランダマイト鉱石のドロップ処理を改良しました。</li>
-                    <li>Cavelandに霧が発生するようにしました。<br>
-                    また、光が全くない状態でも、ある程度先が見えるようになりました。</li>
-                    <li>ケイブニックスケルトンが放つ矢がブロックに刺さった時の消滅時間を更に短くしました。</li>
-                    <li>マスターケイブニックスケルトンの射程を短くしました。</li>
-                    <li>ボスモンスターは洞窟ディメンションのポータルを利用できないようにしました。</li>
-                    <li>耐性のステータスバフ(ポーション効果)がついている時は、ケイブニックボウやケイブニックスケルトンからの攻撃での無敵時間無効を無効化することができるようにしました。</li>
-                    <li>炭鉱夫ランク"アクアマリン掘り"以上で有効になる水中での活動支援効果を、Aqua Cavern以外の洞窟ディメンションでも得られるようにしました。</li>
-                    <li>Cavenia ディメンションのテーマ音楽を2曲追加しました。</li>
-                    <li>一部の洞窟ディメンションのデータのセーブが行われていない不具合を修正しました。</li>
-                    <li>マルチプレイにおいて、洞窟ディメンションのデータの同期が正常に行われていない不具合を修正しました。</li>
-                    <li>マスターケイブニックスケルトンが弓を持たずスポーンし、無力なことがある不具合を修正しました。</li>
-                    <li>非常に多くの細かな修正・調整を行いました。</li>
-                  </ul>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>-->
           
           <h2 class="sub-header" id="alpha">アルファ</h2>
           <p>現在公開されている開発段階のビルドはありません。</p>

@@ -56,6 +56,7 @@
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="index.html">Caveworld 2</a></li>
+            <li><a href="screenshots.html">スクリーンショット</a></li>
             <li class="active"><a href="dimensions.html">ディメンション <span class="sr-only">(current)</span></a></li>
             <li><a href="blocks.html">ブロック</a></li>
             <li><a href="items.html">アイテム</a></li>
@@ -67,6 +68,7 @@
             <li><a href="#cavern">Cavern</a></li>
             <li><a href="#aqua_cavern">Aqua Cavern</a></li>
             <li><a href="#caveland">Caveland</a></li>
+            <li><a href="#cavenia">Cavenia</a></li>
             <li><a href="#portals">ポータル</a></li>
             <li><a href="#structures">特殊な構造物</a></li>
           </ul>
@@ -112,6 +114,7 @@
           水中にいる際にも、視界が良くなり、地上と変わらないくらいの速度で歩けるようになります。</p>
           <h2 class="sub-header" id="caveland">Caveland</h2>
           <p>地上のような洞窟が生成されるディメンションです。<br>
+          霧が微かに発生し、幻想的な空間が広がります。<br>
           このディメンションのバイオームや鉱脈は、コンフィグでカスタマイズすることができません。</p>
           <h3>洞窟</h3>
           <p>地上でのバイオームの構成ブロックが適用された洞窟が生成されます。<br>
@@ -119,17 +122,32 @@
           <h3>鉱脈</h3>
           <p>鉱石はほとんど生成されることはありません。</p>
           <h3>植物</h3>
-          <p>草花、変質した木や、砂漠の洞窟ではサボテンが自生します。</p><br>
+          <p>草花、変質した木や、砂漠の洞窟ではサボテンが自生します。</p>
+          <h2 class="sub-header" id="cavenia">Cavenia</h2>
+          <p>異質な雰囲気の漂う、ボスレイドのためのディメンションです。<br>
+          生成時にクレイジーボスモンスターがスポーンします。<br>
+          このディメンションでは、死亡してもアイテムをその場にドロップせず、復活後に保持したままになります。<br>
+          このディメンションのバイオームや鉱脈は、コンフィグでカスタマイズすることができません。</p>
+          <h3>洞窟</h3>
+          <p>広さが制限された大洞窟が生成されます。</p>
+          <h3>鉱脈</h3>
+          <p>ランダマイト鉱石のみが生成されます。<br>
+          このディメンションでは、ランダマイト鉱石を採掘した際に、ステータスエフェクトを得やすくなっています。</p>
+          <h3>ボスレイド</h3>
+          <h4>クレイジーケイブニックスケルトン <small>/ Crazy Cavenic Skeleton</small></h4>
+          <p>マスターケイブニックスケルトンが変異した、非常に凶悪なボスモンスターです。<br>
+          体力も非常に多く、体力が減るほど攻撃パターンが増えて、厄介になっていきます。</p><br>
           <h2 class="sub-header" id="portals">ポータル</h2>
           <p>それぞれの洞窟ディメンションへは、専用のポータルを作成し、それを介して行き来します。<br>
           ポータルブロックを右クリックすると、簡単にカスタマイズや再生成などにアクセスできるメニューを開けます。</p>
           <ol>
-            <li><b>苔石</b>または<b>苔石レンガ</b>でネザーポータルのようなポータルの外枠を作ります。<small>(最小4x5, 最大23x23)</small></li>
-            <li>作ったポータルの外枠の内側で <b>エンダーチェスト</b>または<b>エメラルド</b> を使用します。<br>
-            <b>エンダーチェスト</b>を使用した場合は、Caveworldとの行き来ができる<u>Caveworld ポータル</u>、<br>
-            <b>エメラルド</b>を使用した場合は、Cavernとの行き来ができる<u>Cavern ポータル</u>、<br>
-            <b>アクアマリン</b>を使用した場合は、Aqua Cavernとの行き来ができる<u>Aqua Cavern ポータル</u>、<br>
-            <b>ケイブニウム</b>を使用した場合は、Cavelandとの行き来ができる<u>Caveland ポータル</u>、が生成されます。</li>
+            <li><strong>苔石</strong>または<strong>苔石レンガ</strong>でネザーポータルのようなポータルの外枠を作ります。<small>(最小4x5, 最大23x23)</small></li>
+            <li>作ったポータルの外枠の内側で <strong>エンダーチェスト</strong>または<strong>エメラルド</strong> を使用します。<br>
+            <strong>エンダーチェスト</strong>を使用した場合は、Caveworldとの行き来ができる<u>Caveworld ポータル</u>、<br>
+            <strong>エメラルド</strong>を使用した場合は、Cavernとの行き来ができる<u>Cavern ポータル</u>、<br>
+            <strong>アクアマリン</strong>を使用した場合は、Aqua Cavernとの行き来ができる<u>Aqua Cavern ポータル</u>、<br>
+            <strong>ケイブニウム</strong>を使用した場合は、Cavelandとの行き来ができる<u>Caveland ポータル</u>、<br>
+            <strong>上質なケイブニウム</strong>を使用した場合は、Caveniaとの行き来ができる<u>Cavenia ポータル</u>、が生成されます。</li>
             <li>ポータルの内側へ入ると、洞窟ディメンション側のポータルへ転送されます。<br>
             再びポータルへ入ると、元のディメンションへ転送されます。</li>
           </ol>
@@ -142,7 +160,7 @@
           ショップの製品や価格はコンフィグからユーザーが自由に設定できます。</p>
           <br>
           <h2 class="sub-header" id="structures">特殊な構造物</h2>
-          <p>Caveworldでは、特殊な構造物が追加されます。<br>
+          <p>洞窟ディメンションに生成される、特殊な構造物です。<br>
           これらは、個別にコンフィグで生成の可否をディメンションごとに設定できます。</p>
           <h3>深層の洞窟 <small>/ Under Caves</small></h3>
           <p>深層に生成される洞窟です。<br>
@@ -155,7 +173,7 @@
           <p><img class="img-responsive img-rounded" src="images/extreme_caves.png"></p>
           <h3>過激な峡谷 <small>/ Extreme Ravine</small></h3>
           <p>最下層から最上層まで抉るように生成され、とても高く巨大な峡谷です。<br>
-          生成率は少し低めです。</p>
+          あまり多く生成されることはない希少な峡谷です。</p>
           <p><img class="img-responsive img-rounded" src="images/extreme_ravine.png"></p>
           <h3>動物スポナーダンジョン <small>/ Animal Dungeons</small></h3>
           <p>動物がスポーンするスポナーブロックが設置されたダンジョンです。</p>
