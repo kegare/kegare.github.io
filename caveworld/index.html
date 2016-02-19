@@ -79,12 +79,11 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
-              <strong>2016/02/18</strong>公開 : Caveworld 2 が <strong>2.1.4</strong> に更新されました<br>
-              クレイジーボスレイド"Cavenia"の実装、Cavelandの霧の実装など多くの更新内容を含むアップデートです<br>
+              <strong>2016/02/18</strong>更新 : Caveworld 2 が <strong>2.1.5</strong> に更新されました<br>
+              洞窟ディメンションでの睡眠の仕様変更、不具合修正を含むアップデートです<br>
               <hr>
-              <strong>2016/02/14</strong>更新 : Caveworld 2 が <strong>2.1.3</strong> に更新されました<br>
-              ケイブボーンの仕様変更、一部の環境でクラッシュする不具合の修正を含むアップデートです<br>
-              以前のバージョンから更新する際は、事前に caveworld-general.cfg を削除してください<br>
+              <strong>2016/02/18</strong>更新 : Caveworld 2 が <strong>2.1.4</strong> に更新されました<br>
+              クレイジーボスレイド"Cavenia"の実装、Cavelandの霧の実装など多くの更新内容を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -145,6 +144,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.1.5</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.1.5.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.1.5-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r215">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.1.4</td>
                   <td>1.7.10</td>
@@ -251,6 +257,32 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r215">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.1.5</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>洞窟ディメンションでのベッドの使用条件の"前回の使用地点から32ブロック離れていること"を削除しました。</li>
+                    <li>洞窟ディメンションでベッドを使用したとき、まだ使用できない場合、何分後に使用できるのかをチャットログで通知するようにしました。</li>
+                    <li>コンフィグのファイルへの保存処理を非同期の別スレッドで行うようにしました。</li>
+                    <li>コンフィグGUIのアイテムの選択GUIで、メタデータ(ダメージ)値のあるアイテムが初期選択されない不具合を修正しました。</li>
+                    <li>洞窟ディメンションでのベッドの使用時間の保持が正常に行われていない不具合を修正しました。</li>
+                    <li>ケイブマンが段差のあるブロックの上を歩くとき、ブロックにめり込むことがある不具合を修正しました。</li>
+                    <li>不要な処理を削除しました。</li>
+                    <li>多くの細かな修正を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r214">
