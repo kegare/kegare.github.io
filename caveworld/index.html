@@ -79,11 +79,11 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
+              <strong>2016/02/20</strong>更新 : Caveworld 2 が <strong>2.1.7</strong> に更新されました<br>
+              クレイジーケイブニックスケルトンの不具合の修正、マルチプレイ向けのパケットの修正を含むアップデートです<br>
+              <hr>
               <strong>2016/02/19</strong>更新 : Caveworld 2 が <strong>2.1.6</strong> に更新されました<br>
               MODが多く導入された環境で、コンフィグファイルがとても大きなサイズになることがある不具合の修正を含むアップデートです<br>
-              <hr>
-              <strong>2016/02/19</strong>更新 : Caveworld 2 が <strong>2.1.5</strong> に更新されました<br>
-              洞窟ディメンションでの睡眠の仕様変更、不具合修正を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -144,6 +144,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.1.7</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.1.7.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.1.7-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r217">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.1.6</td>
                   <td>1.7.10</td>
@@ -264,6 +271,37 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r217">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.1.7</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>マルチプレイ向けのディメンションデータの同期パケットを見直し、最小限のデータのみに抑えるよう修正しました。</li>
+                    <li>マルチプレイでは、バイオームのカスタマイズ、鉱脈のカスタマイズのGUIが空になるようにしました。<br>
+                    あまり大きなデータをパケットでやり取りするべきではないため、ワールド内で、GUIでのカスタマイズは、シングルプレイでのみ行えるようにしました。
+                    <li>Cauldron(KCrauldron)環境で、ディメンションのフォルダがおかしくなるのを修正できるコンフィグを追加しました。<br>
+                    マルチプレイのサーバーでは、caveworld-server.cfg が生成されます。その中の cauldron を環境に応じて true にしてください。<br>
+                    KCauldronが導入されている場合は、初期設定で有効になるようにしています。<br>
+                    このコンフィグが有効なとき、洞窟ディメンションのフォルダ名は、全て DIM[ディメンションID] の形で認識されます。<br>
+                    以前からCauldron環境のサーバーでご利用の場合は、DIM-[洞窟ディメンション名] のフォルダ名を、DIM[ディメンションID] にリネームして、フォルダの中身を統合する必要があります。</li>
+                    <li>ケイブマンのインベントリのサイズを1列分減らしました。</li>
+                    <li>ケイブマンのインベントリのソート機能を削除しました。</li>
+                    <li>MCEconomy 2が導入されていない環境でクレイジーケイブニックスケルトンを倒すとクラッシュする不具合を修正しました。</li>
+                    <li>ポータルのキャッシュが有効なとき、洞窟ディメンションの再生成をした後に、ポータルで正常に移動できないことがある不具合を修正しました。</li>
+                    <li>多くの不要な処理を削除しました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r216">
