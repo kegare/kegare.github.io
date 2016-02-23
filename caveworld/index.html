@@ -79,11 +79,11 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
-              <strong>2016/02/21</strong>更新 : Caveworld 2 が <strong>2.1.9</strong> に更新されました<br>
-              ケイブニックボウの修繕レシピの追加、ケイブニックモンスターのスポーン法則の変更を含むアップデートです<br>
+              <strong>2016/02/23</strong>更新 : Caveworld 2 が <strong>2.2.0</strong> に更新されました<br>
+              ケイブニックボウに狙撃モードの追加、耕作クワの追加を含むアップデートです<br>
               <hr>
-              <strong>2016/02/20</strong>更新 : Caveworld 2 が <strong>2.1.8</strong> に更新されました<br>
-              洞窟ディメンションごとのモンスターのスポーン量のコンフィグの追加を含むアップデートです<br>
+              <strong>2016/02/21</strong>更新 : Caveworld 2 が <strong>2.1.9</strong> に更新されました<br>
+              ケイブニックボウの修復レシピの追加、ケイブニックモンスターのスポーン法則の変更を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -144,6 +144,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.2.0</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.2.0.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.2.0-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r220">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.1.9</td>
                   <td>1.7.10</td>
@@ -287,6 +294,45 @@
             </table>
           </div>
           
+          <div class="modal fade" id="r220">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.2.0</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>ケイブニックボウに狙撃モードを追加しました。遠距離からの正確な攻撃のためのモードです。<br>
+                    このモード時には、ズーム倍率が高まり、暗闇でも標的が見やすくなります。<br>
+                    ズーム時にしゃがんでいるときは、標的に四角い枠が表示され、更に狙いやすくなります。<br>
+                    フルチャージで放つと、ほぼずれることなく、狙った場所に当たります。</li>
+                    <li>耕作クワを追加しました。ケイブニウムツールのひとつです。<br>
+                    他のケイブニウムツールと同様、クワをベースにケイブニウムを使いアップグレードできます。<br>
+                    ノーマル、一括耕作、範囲耕作の3つのモードが存在します。<br>
+                    一括耕作や範囲耕作は、1つのブロックを耕したり収穫すると、連鎖的に周りのブロックも巻き込んで耕したり収穫したりできます。<br>
+                    一括モードの使用には、十分ご注意ください。</li>
+                    <li>マルチプレイの場合は、洞窟ディメンションのポータルを右クリックしたとき、オペレータ以外のプレイヤーはメニューが開かれないようにしました。<br>
+                    Caveworld ポータルなら、インベントリがそのまま開き、それ以外のポータルでは何も起こりません。</li>
+                    <li>ディメンションIDの初期設定値を -30～-34 に変更しました。<br>
+                    以前から利用されているユーザーには特に影響はありません。</li>
+                    <li>耕作クワのクリエイティブタブを追加しました。</li>
+                    <li>Cavern ディメンションでは、高度10以下に溶岩が生成されるようにしました。<br>
+                    以前のCavern ディメンションから新規チャンクが生成されると、いきなり溶岩に変わり、境ができてしまうので、気になるようであれば、ディメンションの再生成を行ってください。</li>
+                    <li>コンフィグ"耕作クワの偽装"を追加しました。クライアントのみの設定項目です。<br>
+                    このコンフィグが有効なとき、耕作クワはベースのクワに偽装し表示されます。</li>
+                    <li>MCEconomy 2のモブごとのMPを調整しました。</li>
+                    <li>細かな修正・調整を行いました。</li>
+                    <li>Caveworld API を 2.2.0 に更新しました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <div class="modal fade" id="r219">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -296,7 +342,7 @@
                 </div>
                 <div class="modal-body">
                   <ul>
-                    <li>ケイブニックボウの修繕レシピを追加しました。<br>
+                    <li>ケイブニックボウの修復レシピを追加しました。<br>
                     中央にケイブニックボウを置き、隣接する4つのスロットを上質なケイブニウムで埋めてクラフトすることでできます。<br>
                     その際、エンチャントなどはそのまま引き継がれます。</li>
                     <li>ケイブニックモンスターが1体または2体の少数でのみスポーンするようにしました。</li>
