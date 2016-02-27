@@ -79,11 +79,11 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
+              <strong>2016/02/27</strong>更新 : Caveworld 2 が <strong>2.2.2</strong> に更新されました<br>
+              ランダマイトのポーションのコンフィグ追加や多くの調整を含むアップデートです<br>
+              <hr>
               <strong>2016/02/24</strong>更新 : Caveworld 2 が <strong>2.2.1</strong> に更新されました<br>
               MCEconomy 2との連携要素のショップをマルチプレイで使用できない不具合の修正を含むアップデートです<br>
-              <hr>
-              <strong>2016/02/23</strong>更新 : Caveworld 2 が <strong>2.2.0</strong> に更新されました<br>
-              ケイブニックボウに狙撃モードの追加、耕作クワの追加を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -144,6 +144,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.2.2</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.2.2.jar'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/dev/Caveworld_1.7.10-v2.2.2-dev.jar'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r222">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.2.1</td>
                   <td>1.7.10</td>
@@ -299,6 +306,45 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r222">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.2.2</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>コンフィグ"ランダマイトのポーション"を追加しました。<br>
+                    ランダマイト鉱石から得られるポーション効果を指定できます。最大で100個まで指定できます。</li>
+                    <li>@cavemenu コマンドを追加しました。<br>
+                    Caveworld メニューを開けるコマンドです。Cauldron環境での権限回避のために追加しました。</li>
+                    <li>コンフィグ"リモートコンフィグ"をサーバー用コンフィグファイルに追加しました。<br>
+                    マルチプレイのサーバーでのみ設定できるコンフィグです。<br>
+                    この設定が有効なとき、マルチプレイにおいてもオペレータのみゲーム内での鉱脈のカスタマイズ・ショップのカスタマイズができるようになります。<br>
+                    初期設定では無効になっているので、必要に応じて有効にしてください。</li>
+                    <li>ケイブニックスケルトン・マスターケイブニックスケルトン・クレイジーケイブニックスケルトンの矢の射程を少し下方修正しました。</li>
+                    <li>鉱石を採掘して採掘ポイントを得たとき、採掘ポイントの表示が有効な場合、採掘ポイントの表示の横に、獲得した採掘ポイントとその鉱石が少しの間表示されるようにしました。</li>
+                    <li>MCEconomy 2との連携要素のショップのコンフィグは、マルチプレイの場合、サーバーとクライアントで設定値を一致させる必要がなくなりました。<br>
+                    MOD側で自動的にログイン時にサーバーとの同期をするようになります。</li>
+                    <li>Cavenia ディメンションでの、ケイブニックモブのスポーン条件を変更しました。<br>
+                    光源で湧き潰しされたエリアでは、たまにスポーンするようにしました。</li>
+                    <li>コンフィグ"鉱石の重ね描画"の初期設定値を無効に変更しました。<br>
+                    このコンフィグが有効なとき、追加鉱石を破壊する際に、破壊中のエフェクトが描画されない仕様があります。</li>
+                    <li>Caveworld メニュー・洞窟ディメンションのポータルメニューにページ切り換えボタンを追加しました。</li>
+                    <li>MCEconomy 2が導入されている場合、洞窟ディメンションのポータルメニューにショップボタンが追加されるようにしました。</li>
+                    <li>MODの説明がローカライズされるようにしました。</li>
+                    <li>洞窟ディメンションのロード画面で、背景のパノラマが急に切り替わることがある不具合を修正しました。</li>
+                    <li>細かな修正・調整を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r221">
