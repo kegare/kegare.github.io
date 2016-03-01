@@ -79,11 +79,11 @@
             <a href="#event" class="alert-link">洞窟ディメンションの風景のスクリーンショットを募集しています</a>
           </div>
           <div class="well">
+              <strong>2016/03/01</strong>公開 : Caveworld 2 の <strong>2.2.4 ベータ</strong> が公開されました<br>
+              新鉱石・新作物・新ツールの追加、コンフィグの初期設定値の全体的な調整などを含むアップデートです<br>
+              <hr>
               <strong>2016/02/28</strong>更新 : Caveworld 2 が <strong>2.2.3</strong> に更新されました<br>
               MCEconomy 2が導入されていない環境で起動できない不具合の修正を含むアップデートです<br>
-              <hr>
-              <strong>2016/02/27</strong>更新 : Caveworld 2 が <strong>2.2.2</strong> に更新されました<br>
-              ランダマイトのポーションのコンフィグ追加や多くの調整を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -985,8 +985,8 @@
           </div>
           
           <h2 class="sub-header" id="beta">ベータ</h2>
-          <p>現在公開されているリリース直前のビルドはありません。
-          <!--<p>リリース直前のビルドです。不具合はほとんど存在しませんが、万が一残っていた場合、製作者までご報告ください。<br>
+          <!--<p>現在公開されているリリース直前のビルドはありません。-->
+          <p>リリース直前のビルドです。不具合はほとんど存在しませんが、万が一残っていた場合、製作者までご報告ください。<br>
           また、正式リリース時に一部の仕様が変更されたり、残っていた不具合が修正されることがあります。<br>
           正式リリース版が公開されたら、そちらに更新していただくようお願いします。</p>
           <div class="table-responsive">
@@ -1003,14 +1003,91 @@
               <tbody>
                 <tr class="info">
                   <td>Caveworld 2</td>
-                  <td>2.1.4 Beta</td>
+                  <td>2.2.4 Beta</td>
                   <td>1.7.10</td>
                   <td>11.13.4.1558+</td>
-                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.1.4-beta.jar'">ダウンロード</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r214b">変更履歴</button></td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/caveworld/Caveworld_1.7.10-v2.2.4-beta.jar'">ダウンロード</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r224b">変更履歴</button></td>
                 </tr>
               </tbody>
             </table>
-          </div>-->
+          </div>
+          
+          <div class="modal fade" id="r224b">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.2.4 ベータ</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>コンフィグの初期設定値を全体的に調整しました。<br>
+                    従来の設定よりも、より軽く、より充実した設定内容に変更しました。<br>
+                    各洞窟ディメンションのテーマに沿って、鉱脈の生成条件も調整しました。<br>
+                    <u>一度コンフィグのリセットを行い、洞窟ディメンションも再生成していただくことを推奨します。</u><br>
+                    (引き続き、以前のコンフィグでプレイされることに問題はありません。)<br>
+                    コンフィグのリセットは、configフォルダのcaveworldフォルダを削除してから起動することで実行できます。</li>
+                    <li>マグナイト鉱石を追加しました。</li>
+                    <li>マグナイトインゴットを追加しました。マグナイト鉱石を精錬することで得られます。</li>
+                    <li>マグナイトの粉末を追加しました。他MODの粉砕機や石臼にかけることで得られます。<br>
+                    精錬すると、マグナイトインゴットになります。</li>
+                    <li>マグナイトの剣を追加しました。<br>
+                    非常に高い攻撃力を持つ剣ですが、耐久値は非常に低いのが特徴です。<br>
+                    また、マグナイトの剣での攻撃は、無敵時間が発生せず、より多くのダメージを連続で与えることができます。<br>
+                    マグナイトインゴットを素材にクラフトできます。</li>
+                    <li>マグナイトのツルハシを追加しました。<br>
+                    非常に高い性能を持つツルハシですが、耐久値は非常に低いのが特徴です。<br>
+                    具体的には、黒曜石を2秒ほどで破壊することができます。<br>
+                    マグナイトインゴットを素材にクラフトできます。</li>
+                    <li>マグナイトの斧を追加しました。<br>
+                    非常に高い性能を持つ斧ですが、耐久値は非常に低いのが特徴です。<br>
+                    マグナイトインゴットを素材にクラフトできます。</li>
+                    <li>マグナイトのシャベルを追加しました。<br>
+                    非常に高い性能を持つシャベルですが、耐久値は非常に低いのが特徴です。<br>
+                    マグナイトインゴットを素材にクラフトできます。</li>
+                    <li>ヘキサイト鉱石を追加しました。</li>
+                    <li>ヘキサイトを追加しました。</li>
+                    <li>ヘキサイトの剣を追加しました。<br>
+                    ダイヤの剣よりも耐久値は少し低いが、攻撃力は少し高いのが特徴です。</li>
+                    <li>ヘキサイトのツルハシを追加しました。<br>
+                    ダイヤのツルハシよりも耐久値は少し低いが、破壊速度は早いのが特徴です。</li>
+                    <li>ヘキサイトの斧を追加しました。<br>
+                    ダイヤの斧よりも耐久値は少し低いが、破壊速度は早いのが特徴です。</li>
+                    <li>ヘキサイトのシャベルを追加しました。<br>
+                    ダイヤのシャベルよりも耐久値は少し低いが、破壊速度は早いのが特徴です。</li>
+                    <li>ヘキサイトのクワを追加しました。<br>
+                    ダイヤのクワよりも耐久値は少し低いが、破壊速度は早いのが特徴です。</li>
+                    <li>ヘキサイトのヘルメットを追加しました。<br>
+                    ダイヤのヘルメットよりも耐久値は少し低いが、防御力は高いのが特徴です。</li>
+                    <li>ヘキサイトのチェストプレートを追加しました。<br>
+                    ダイヤのチェストプレートよりも耐久値は少し低いが、防御力は高いのが特徴です。</li>
+                    <li>ヘキサイトのレギンスを追加しました。<br>
+                    ダイヤのレギンスよりも耐久値は少し低いが、防御力は高いのが特徴です。</li>
+                    <li>ヘキサイトのブーツを追加しました。<br>
+                    ダイヤのブーツよりも耐久値は少し低いが、防御力は高いのが特徴です。</li>
+                    <li>アクレシアを追加しました。非常に成長しやすい、新しい作物です。<br>
+                    成長に光を必要としません。また、土以外の石など、固体ブロックの上であればどこでも成長します。<br>
+                    完全に成長すると、黄色い実が宿り、直接破壊するか、ハサミで右クリックで収穫することで、アクレシアの実を得られます。<br>
+                    ハサミで収穫するほうがより多く収穫でき、ハサミでの収穫後は途中まで成長した段階に戻り、また成長すれば再収穫することができます。</li>
+                    <li>アクレシアの種を追加しました。</li>
+                    <li>アクレシアの実を追加しました。成長したアクレシアからのドロップ、または収穫で得られます。<br>
+                    食べると満腹度がほんの少し回復します。</li>
+                    <li>実績"マグナイター"を追加しました。</li>
+                    <li>実績"ヘキサイト"を追加しました。</li>
+                    <li>実績"たくましい作物"を追加しました。</li>
+                    <li>実績名"ランダマイト鉱石"を"奇妙な鉱石"に変更しました。</li>
+                    <li>Caveworldのスポナーダンジョンの生成量を従来の約1.7倍に変更しました。</li>
+                    <li>Caveworld及びCavelandの動物スポナーダンジョンの生成量を少し上げました。</li>
+                    <li>Cavelandにアクレシアが自生するようにしました。</li>
+                    <li>多くの細かな調整を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <h2 class="sub-header" id="alpha">アルファ</h2>
           <p>現在公開されている開発段階のビルドはありません。</p>
