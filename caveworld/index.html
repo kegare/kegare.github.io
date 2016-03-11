@@ -82,11 +82,11 @@
             <a href="" class="alert-link"></a>
           </div>-->
           <div class="well">
+              <strong>2016/03/11</strong>更新 : Caveworld 2 が <strong>2.2.8</strong> に更新されました<br>
+              モブのデスポーンのコンフィグ追加、ケイバーのリュックの機能追加、いくつかの不具合の修正や調整を含むアップデートです<br>
+              <hr>
               <strong>2016/03/09</strong>更新 : Caveworld 2 が <strong>2.2.7</strong> に更新されました<br>
               洞窟の明るさのコンフィグの追加、多くの調整を含むアップデートです<br>
-              <hr>
-              <strong>2016/03/06</strong>更新 : Caveworld 2 が <strong>2.2.6</strong> に更新されました<br>
-              インフィタイト鉱石、インフィタイト、インフィタイトツールなどの追加を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -147,6 +147,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.2.8</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='http://minecraft.curseforge.com/projects/caveworld-2/files/2286380'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='http://minecraft.curseforge.com/projects/caveworld-2/files/2286381'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r228">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.2.7</td>
                   <td>1.7.10</td>
@@ -346,6 +353,50 @@
             </table>
           </div>
           
+          <div class="modal fade" id="r228">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.2.8</h4>
+                </div>
+                <div class="modal-body">
+                  <strong>追加</strong>
+                  <ul>
+                    <li>デスポーンの可否のコンフィグをモブの設定に追加しました。<br>
+                    モブごとにデスポーンできるかを指定することができます。</li>
+                    <li>ケイバーのリュックにインベントリの搬入・搬出機能を追加しました。<br>
+                    ケイバーのリュックを手に持って、インベントリのあるチェストなどのブロックを、スニークしながら右クリックすると、中身を一括でリュックに搬出できます。<br>
+                    左クリックすると、リュックの中身を一括で搬入できます。</li>
+                  </ul>
+                  <br>
+                  <strong>修正</strong>
+                  <ul>
+                    <li>採掘ポイントが有効なアイテムの判定が正しく行われていない不具合を修正しました。</li>
+                    <li>マスターケイブニックスケルトンの当たり判定が見た目と一致していない不具合を修正しました。</li>
+                    <li>ランダマイトのポーションが何も指定されていないとクラッシュする不具合を修正しました。</li>
+                  </ul>
+                  <br>
+                  <strong>変更</strong>
+                  <ul>
+                    <li>クレイジーケイブニックスケルトンのサイズを少し大きくしました。</li>
+                    <li>採掘ツルハシなどのスロット上での等級表示のあるアイテムの描画処理を変更し、日本語などのマルチバイト文字のフォントでも、見づらくならないようにしました。</li>
+                    <li>ケイブニックスパイダーのスキンを変更しました。</li>
+                    <li>洞窟の明るさのコンフィグの初期設定値を変更しました。</li>
+                  </ul>
+                  <br>
+                  <strong>その他</strong>
+                  <ul>
+                    <li>細かな調整・修正を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <div class="modal fade" id="r227">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -379,12 +430,8 @@
                     また、モブもそれ以降湧かなくなるようにしました。</li>
                     <li>Cavenia ディメンションの洞窟の生成法則を変更しました。</li>
                     <li>Cavenia ディメンションに、溶岩が自然生成されるようにしました。</li>
-                  </ul>
-                  <br>
-                  <strong>更新</strong>
-                  <ul>
-                    <li>鉱石ごとの採掘ポイントのコンフィグの初期設定値を更新しました。</li>
-                    <li>MCEconomy 2: ポータルショップの製品のコンフィグの初期設定値を更新しました。</li>
+                    <li>鉱石ごとの採掘ポイントのコンフィグの初期設定値を変更しました。</li>
+                    <li>MCEconomy 2: ポータルショップの製品のコンフィグの初期設定値を変更しました。</li>
                   </ul>
                   <br>
                   <strong>その他</strong>
