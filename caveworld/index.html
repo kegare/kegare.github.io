@@ -84,11 +84,11 @@
             <a href="" class="alert-link"></a>
           </div>-->
           <div class="well">
+              <strong>2016/03/15</strong>更新 : Caveworld 2 が <strong>2.3.0</strong> に更新されました<br>
+              クレイジーボスの攻略難易度のコンフィグ追加、ケイブマンの人工作成などを含むアップデートです。<br>
+              <hr>
               <strong>2016/03/13</strong>更新 : Caveworld 2 が <strong>2.2.9</strong> に更新されました<br>
               Caveland ディメンションの仕様変更・調整などを含むアップデートです。<br>
-              <hr>
-              <strong>2016/03/11</strong>更新 : Caveworld 2 が <strong>2.2.8</strong> に更新されました<br>
-              モブのデスポーンのコンフィグ追加、ケイバーのリュックの機能追加、いくつかの不具合の修正や調整を含むアップデートです<br>
           </div>
           <img class="img-responsive img-rounded" src="../images/caveworld.png" alt="Caveworld"><br><hr>
 
@@ -149,6 +149,13 @@
               </thead>
               <tbody>
                 <tr class="info">
+                  <td>Caveworld 2</td>
+                  <td>2.3.0</td>
+                  <td>1.7.10</td>
+                  <td>11.13.4.1558+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='http://minecraft.curseforge.com/projects/caveworld-2/files/2287136'">ダウンロード</button> <button type="button" class="btn btn-default btn-sm" onclick="location.href='http://minecraft.curseforge.com/projects/caveworld-2/files/2287137'">開発者向け</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r230">変更履歴</button></td>
+                </tr>
+                <tr>
                   <td>Caveworld 2</td>
                   <td>2.2.9</td>
                   <td>1.7.10</td>
@@ -360,6 +367,56 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          
+          <div class="modal fade" id="r230">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Caveworld 2.3.0</h4>
+                </div>
+                <div class="modal-body">
+                  <strong>追加</strong>
+                  <ul>
+                    <li>ケイブマンを人工的に作成できるようにしました。<br>
+                    ケイブニウムブロックを2つ縦に重ねて設置し、その上にカボチャを設置し、カボチャを右クリックすることで作成できます。<br>
+                    人工的に生み出されたケイブマンは、戦闘モードであれば、敵性モブを攻撃するようになります。<br>
+                    また、通常のケイブマンより高い体力・ノックバック耐性を持ち、上質なケイブニウムブロックで作るとより耐久力の高いケイブマンが生み出されます。<br>
+                    その際に、右クリックしたときに持っていたアイテムがそのままケイブマンに渡されます。<br>
+                    戦闘補助兵として作りたいときは、剣を別途用意しておく必要があります。</li>
+                    <li>コンフィグ"クレイジーの難易度"をCavenia ディメンションの設定に追加しました。<br>
+                    クレイジーボスの攻略難易度を指定できます。<br>
+                    この設定値により、クレイジーボスの攻撃性・体力などが変化します。</li>
+                    <li>ケイブニックボウの松明モードを攻撃としても用いることができるようにしました。<br>
+                    フレイムのエンチャントと同様の効果を与えることができます。<br>
+                    ケイブニックボウに既にフレイムのエンチャントが付与されている場合には、更に強力な効果が与えられます。</li>
+                  </ul>
+                  <br>
+                  <strong>修正</strong>
+                  <ul>
+                    <li>ケイブニックボウの松明モードで放たれる矢やケイブニックスケルトンが放つ矢の挙動が微妙におかしい不具合を修正しました。</li>
+                  </ul>
+                  <br>
+                  <strong>変更</strong>
+                  <ul>
+                    <li>ケイブマンのAIの処理を変更しました。<br>
+                    戦闘モードのAIと回収モードのAIが重複しないようにしました。<br>
+                    剣やツールのアイテムを持ったケイブマンは戦闘だけを行い、遠くのアイテムを回収しようとしなくなりました。</li>
+                    <li>ケイブニックボウの狙撃モードの攻撃力などを上げました。</li>
+                    <li>マスターケイブニックスケルトンやマスターケイブニッククリーパーの体力バーは、目視範囲内にいるときだけ表示されるようにしました。</li>
+                  </ul>
+                  <br>
+                  <strong>その他</strong>
+                  <ul>
+                    <li>細かな調整・修正を行いました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div class="modal fade" id="r229">
