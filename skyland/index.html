@@ -72,7 +72,7 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Skyland</h1>
           <div class="well">
-              <strong>2016/05/20</strong>公開 : <strong>Minecraft 1.9.4対応版</strong> の Skyland <strong>1.2.1</strong> が公開されました
+              <strong>2016/05/31</strong>更新 : Skyland が <strong>1.2.2</strong> に更新されました
           </div>
           <img class="img-responsive img-rounded" src="../images/skyland.png" alt="Skyland"><br><hr>
 
@@ -130,10 +130,10 @@
               <tbody>
                 <tr>
                   <td>Skyland</td>
-                  <td>1.2.1</td>
+                  <td>1.2.2</td>
                   <td>1.9.4</td>
-                  <td>12.17.0.1909+</td>
-                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/skyland/Skyland_1.9.4-v1.2.1.jar'">ダウンロード</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r121">変更履歴</button></td>
+                  <td>12.17.0.1932+</td>
+                  <td><button type="button" class="btn btn-primary btn-sm" onclick="location.href='https://dl.dropboxusercontent.com/u/51943112/skyland/Skyland_1.9.4-v1.2.2.jar'">ダウンロード</button> <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#r122">変更履歴</button></td>
                 </tr>
                 <tr>
                   <td>Skyland</td>
@@ -174,19 +174,23 @@
             </table>
           </div>
           
-          <div class="modal fade" id="r116">
+          <div class="modal fade" id="r122">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title">Skyland 1.1.6</h4>
+                  <h4 class="modal-title">Skyland 1.2.2</h4>
                 </div>
                 <div class="modal-body">
                   <ul>
-                    <li>スカイポータルでの移動の際は、元の座標をキャッシュするようにしました。<br>
-                    Skylandからスカイポータルを介して元のディメンションに帰るとき、元のポータルに戻りやすくなります。</li>
-                    <li>Forgeのバージョンを 11.15.1.1722 に更新しました。<br>
-                    Forgeの前提バージョンは、11.15.1.1722以降となります。</li>
+                    <li>Forge を 12.17.0.1932 に更新しました。</li>
+                    <li>ディメンションの移動関連処理を全面的に改修しました。</li>
+                    <li>空の羽を使用して移動した際にも座標のキャッシュを行うようにしました。</li>
+                    <li>Skylandから落下し帰還する場合、最後に空の羽を使用した場所に落下するようにしました。</li>
+                    <li>再び空の羽を持ってベッドで寝たときにディメンションの移動を行えるようにしました。</li>
+                    <li>ポータルのキャッシュが正常に行われていない不具合を修正しました。</li>
+                    <li>中国語の言語ファイル(zh_CN.lang)を追加しました。</li>
+                    <li>多くの調整・修正を行い、全体的なパフォーマンスの向上を図りました。</li>
                   </ul>
                 </div>
                 <div class="modal-footer">
@@ -227,6 +231,28 @@
                 <div class="modal-body">
                   <ul>
                     <li>Minecraft 1.9に対応しました。</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal fade" id="r116">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Skyland 1.1.6</h4>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>スカイポータルでの移動の際は、元の座標をキャッシュするようにしました。<br>
+                    Skylandからスカイポータルを介して元のディメンションに帰るとき、元のポータルに戻りやすくなります。</li>
+                    <li>Forgeのバージョンを 11.15.1.1722 に更新しました。<br>
+                    Forgeの前提バージョンは、11.15.1.1722以降となります。</li>
                   </ul>
                 </div>
                 <div class="modal-footer">
