@@ -6,16 +6,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="kegareが製作するMOD、Skylandのページです。">
+    <meta name="description" content="">
     <meta name="author" content="kegare">
 
-    <title>kegare's Mods / Skyland</title>
+    <title>Skyland / kegare's Mods</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../css/landing-page.css" rel="stylesheet">
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -31,18 +32,109 @@
 
 </head>
 
-<body>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<div style="text-align: center;">
-    <p>現在移行作業中です..</p>
-    <p><a href="../legacy/skyland">kegare.github.io/legacy/skyland</a></p>
-</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Skyland</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="../">kegare's Mods</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#access">Access</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <h1>Skyland</h1>
+                    <p class="lead">空に浮かぶ孤島があるディメンションが追加されます。<br>そこにしかないスカイライト鉱石や、そのツール類も追加されます。<br>ワールドタイプとして追加することもできます。</p>
+                    <p><a target="_blank" href="#access" class="btn btn-default btn-lead-link page-scroll"><i class="fa fa-arrow-down fa-fw"></i> もっと知る</a></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="section-heading-spacer-noline"></div>
+                    <h4 class="section-heading">ダウンロード</h4>
+                    <p class="lead-bold">For Minecraft 1.11 <a target="_blank" href="https://dl.dropboxusercontent.com/u/51943112/skyland/Skyland_1.11-v1.4.0.jar" class="btn btn-default btn-lead-link"><i class="fa fa-download fa-fw"></i> ダウンロード</a><br>&nbsp;Minecraft Forge 13.19.1.2188+</p>
+                    <div class="section-heading-spacer-noline"></div>
+                    <p><a target="_blank" href="https://www.dropbox.com/sh/kmjlgugrulmb1be/AAAZlMduy5XwY-iK0mgZHo-Oa/skyland?dl=0" class="btn btn-sm btn-lead-link"><i class="fa fa-history fa-fw"></i> すべてのバージョンはこちらから</a></p>
+                </div>
+                <div class="col-lg-12">
+                    <div class="section-heading-spacer-noline"></div>
+                    <hr class="hr-section">
+                    <img class="img-responsive img-rounded" src="../img/skyland.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Access Section -->
+    <section id="access" class="section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>どうやって行くの？</h1>
+                    <div class="section-heading-spacer-noline"></div>
+                    <div class="col-md-4 col-sm-6">
+                        <h4>空の羽</h4>
+                        <p class="lead">空の羽 をそのまま使うことで、その場ですぐに Skyland へ行くことができます。<br>空の羽 は、ニワトリが持っているかもしれません。<br>空が見える場所で、天空に思いを馳せて使いましょう。</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <h4>ベッド</h4>
+                        <p class="lead">空の羽 を手に持って、ベッドで眠りましょう。<br>マルチプレイでは、全員が眠る必要はありません。</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <h4>ポータル</h4>
+                        <p class="lead">空の羽 と ネザー水晶 ブロックを素材に、ポータルを作成しましょう。<br>まず、ネザー水晶 でポータルの枠を作り、内側のブロックに向かって 空の羽 を使うことで、ポータルが出来上がります。
+                    </div>
+                </div>
+                <hr class="hr-section">
+                <div class="col-lg-12">
+                    <div class="section-heading-spacer-noline"></div>
+                    <h1>どうやって帰るの？</h1>
+                    <div class="section-content">
+                        <p class="lead">Skyland から飛び降りましょう。<br>もれなく通常世界のはるか上空から落とされますが、落下ダメージはありません。<br>上記のポータルを使って帰ることもできます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
 
 </body>
 
