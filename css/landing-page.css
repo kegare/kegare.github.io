@@ -41,6 +41,8 @@ h6 {
 
 .btn-lead-link {
     float: right;
+    position: relative;
+    z-index: 2;
 }
 
 .btn-sm {
