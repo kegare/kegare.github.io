@@ -190,6 +190,27 @@ h6 {
         margin-bottom: 0;
     }
 }
+ 
+.customlist li{
+	list-style-type: none !important;
+	list-style-image: none !important;
+	margin: 5px 0px 5px 0px !important;
+}
+.licenselist li {
+	position: relative;
+}
+.licenselist li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .5em;
+	left: -1em;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
 
 footer {
     padding: 50px 0;
