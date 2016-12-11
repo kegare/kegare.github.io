@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="kegare">
+
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <title>Caveworld 2 : その他 / kegare's Mods</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/kegare.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../">kegare's Mods</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://forum.minecraftuser.jp/viewtopic.php?t=13399">Forum</a></li>
+            <li><a href="https://twitter.com/_kegare">Twitter</a></li>
+            <li><a href="https://github.com/kegare">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="../">kegare's Mods</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="index.html">Caveworld 2</a></li>
+            <li><a href="screenshots.html">スクリーンショット</a></li>
+            <li><a href="dimensions.html">ディメンション</a></li>
+            <li><a href="blocks.html">ブロック</a></li>
+            <li><a href="items.html">アイテム</a></li>
+            <li><a href="mobs.html">モブ</a></li>
+            <li class="active"><a href="others.html">その他 <span class="sr-only">(current)</span></a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#mining_point">採掘ポイント <small>/ Mining Point</small></a></li>
+            <li><a href="#miner_rank">炭鉱夫ランク <small>/ Miner Rank</small></a></li>
+            <li><a href="#commands">コマンド</a></li>
+            <li><a href="#recipes">レシピ</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">その他</h1>
+          <p><info>Caveworld 2で追加されるその他の要素の説明書きです。</info></p>
+          <h2 class="sub-header" id="mining_point">採掘ポイント <small>/ Mining Point</small></h2>
+          <p>洞窟ディメンションで採掘した時に得られるポイントです。<br>
+          得られるポイントは、コンフィグでブロックごとに設定できます。</p>
+          <h3>確認方法</h3>
+          <p>洞窟ディメンションでツルハシを持つと、右上にツルハシアイコンに重なって数字が表示されます。<br>
+          その数字が現在あなたの保有している採掘ポイントになります。<br>
+          表示位置はコンフィグで変更できます。</p>
+          <h3>使用用途</h3>
+          <h4>@buff コマンド</h4>
+          <p>採掘ポイントを1以上保持していると使用できるコマンドです。<br>
+          洞窟ディメンションで、@buff と発言すると使用できます。<br>
+          使用時に採掘ポイントを消費し、消費したポイント/秒のバフ(ステータス効果)がプレイヤーに付与されます。<br>
+          消費量は、@buff [数値] の形で指定できます。入力した数値の分だけ消費します。</p>
+          <h2 class="sub-header" id="miner_rank">炭鉱夫ランク <small>/ Miner Rank</small></h2>
+          <p>保持している採掘ポイントが一定値に達すると、炭鉱夫ランクが上昇します。<br>
+          炭鉱夫ランクによっていくつかの恩恵を得ることができます。<br>
+          ランクが上昇する際に、ランク上昇に必要なポイント分だけ減少します。<br>
+          現在のランクは、採掘ポイントと一緒の位置に表示されます。また、採掘ポイントのツルハシアイコンでも判断できます。<br>
+          ランクが上昇したときは、チャットログにメッセージが流れます。マルチプレイの場合は、全プレイヤーにメッセージが流れます。<br>
+          また、洞窟ディメンションにいるプレイヤーには、チャットでの発言時に現在のランクも表示されます。<br>
+          それぞれの炭鉱夫ランクの表示は、コンフィグから非表示にすることもできます。</p>
+          <h4>初心者 <small>/ Beginner</small></h4>
+          <p>まだ始めたばかりのときのランクです。</p>
+          <h4>石掘り <small>/ Stone Miner</small></h4>
+          <p>採掘ポイントが 50 に達するとこのランクに上昇します。<br>
+          SextiarySector 2が導入されている場合、このランク以下のとき、Aqua Cavernを除く洞窟ディメンションで水分が減りやすくなります。</p>
+          <h4>鉄掘り <small>/ Iron Miner</small></h4>
+          <p>採掘ポイントが 100 に達するとこのランクに上昇します。<br>
+          ここまでに必要な上昇ポイントは、合計で 150 です。</p>
+          <h4>金掘り <small>/ Gold Miner</small></h4>
+          <p>採掘ポイントが 1000 に達するとこのランクに上昇します。<br>
+          ここまでに必要な上昇ポイントは、合計で 1150 です。</p>
+          <h4>アクアマリン掘り <small>/ Aqua Miner</small></h4>
+          <p>採掘ポイントが 3000 に達するとこのランクに上昇します。<br>
+          このランク以上になると、洞窟ディメンションにいるとき、水中でも採掘速度が常に遅くならなくなります。<br>
+          更に、視界が良くなり、地上と変わらないくらいの速度で歩けるようになります。<br>
+          ここまでに必要な上昇ポイントは、合計で 4150 です。</p>
+          <h4>ダイヤモンド掘り <small>/ Diamond Miner</small></h4>
+          <p>採掘ポイントが 10000 に達するとこのランクに上昇します。<br>
+          このランク以上になると、洞窟ディメンションでの睡眠が、前回の使用時間や使用地点との距離に関係なく行えるようになります。<br>
+          ここまでに必要な上昇ポイントは、合計で 14150 です。</p>
+          <h4>炭鉱夫 <small>/ The Miner</small></h4>
+          <p>採掘ポイントが 20000 に達するとこのランクに上昇します。<br>
+          このランクになると、洞窟ディメンションでの採掘速度が常に1.25倍になります。<br>
+          ここまでに必要な上昇ポイントは、合計で 34150 です。</p>
+          <h4>狂った炭鉱夫 <small>/ Crazy Miner</small></h4>
+          <p>採掘ポイントが 50000 に達するとこのランクに上昇します。<br>
+          このランクになると、洞窟ディメンションでの採掘速度が常に2倍になります。<br>
+          ここまでに必要な上昇ポイントは、合計で 84150 です。</p>
+          <br>
+          <h2 class="sub-header" id="commands">コマンド</h2>
+          <p>Caveworldで追加されるコマンドです。</p>
+          <div class="table-responsive">
+            <table class="table">
+            <thead>
+              <tr>
+                <th>コマンド</th>
+                <th>説明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>/caveworld</td>
+                <td>Caveworld メニューを表示します。メニューからは、バイオームのカスタマイズや鉱脈のカスタマイズ、ディメンションの再生成を呼び出せます。</td>
+              </tr>
+              <tr>
+                <td>/caveworld version</td>
+                <td>Caveworldのバージョン情報を、チャットログ(サーバーログ)に出力します。</td>
+              </tr>
+              <tr>
+                <td>/caveworld regenerate [true/false]</td>
+                <td>Caveworld ディメンション / Cavern ディメンションの再生成を行います。<br>
+                クライアントで実行した場合は、Caveworldの再生成GUIを表示します。<br>
+                regenerateの後の引数には、バックアップの要否を指定します。省略した場合は、バックアップを行います。</td>
+              </tr>
+              <tr>
+                <td>@cavemenu</td>
+                <td>Caveworld メニューを表示します。</td>
+              </tr>
+              <tr>
+                <td>@buff [value]</td>
+                <td>洞窟ディメンションでのみ使用できる、保有している採掘ポイントを消費して、使用者にステータスエフェクトを付与するコマンドです。<br>
+                [value]に整数を入れると、その分だけ消費して、消費したポイント/秒のバフ(ステータス効果) が付与されます。<br>
+                [value]にmaxを入れると、保有している採掘ポイント全てを消費して、その分のバフが付与されます。<br>
+                引数を省略した場合は、最大で30ポイントまで消費して、バフが付与されます。</td>
+              </tr>
+              <tr>
+                <td>@cavemusic</td>
+                <td>洞窟ディメンションでのみ使用できる、音楽再生コマンドです。<br>
+                現在いる洞窟ディメンションのテーマ音楽を即座に再生します。</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <br>
+          <h2 class="sub-header" id="recipes">レシピ</h2>
+          <p>Caveworld 2で追加されるバニラの補助レシピです。<br>
+          これらはコンフィグで追加の可否を設定できます。</p>
+          <h3>苔石 / 苔石レンガ</h3>
+          <p>苔石は石1個と蔓1個で、苔石レンガは石レンガ1個と蔓1個でクラフトできるようになります。</p>
+        <br><hr>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/kegare.js"></script>
+  </body>
+</html>
