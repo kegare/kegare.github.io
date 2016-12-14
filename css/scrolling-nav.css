@@ -18,15 +18,14 @@
 }
 
 .hr-section {
-    width: 300px;
-    padding: 0 150px;
+    width: 50%;
     border-top: 2px solid #e7e7e7;
 }
 
 .section-a {
     height: auto !important;
     height: 100%;
-    min-height:100%;
+    min-height: 100%;
     padding-top: 120px;
     background: #fff;
     border-top: 1px solid #e7e7e7;
@@ -36,11 +35,12 @@
 .section-b {
     height: auto !important;
     height: 100%;
-    min-height:100%;
+    min-height: 100%;
     padding-top: 120px;
     background: #f8f8f8;
 }
 
 .section-content {
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
 }
