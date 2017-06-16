@@ -39,6 +39,14 @@ h6 {
     line-height: 1.5em;
 }
 
+.lead-small {
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 1.5em;
+   	text-indent: 0.5em;
+   	color: #808080;
+}
+
 .btn-lead-link {
     float: right;
     position: relative;
