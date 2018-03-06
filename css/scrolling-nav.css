@@ -23,9 +23,9 @@
 }
 
 .section-a {
-    height: auto !important;
-    height: 100%;
-    min-height: 100%;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
     padding-top: 120px;
     background: #fff;
     border-top: 1px solid #e7e7e7;
@@ -33,9 +33,9 @@
 }
 
 .section-b {
-    height: auto !important;
-    height: 100%;
-    min-height: 100%;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
     padding-top: 120px;
     background: #f8f8f8;
 }
