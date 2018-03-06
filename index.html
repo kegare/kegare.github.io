@@ -17,6 +17,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="css/fakeLoader.css" rel="stylesheet">
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -33,6 +34,8 @@
 </head>
 
 <body id="page-top">
+    <div id="fakeLoader"></div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -549,6 +552,18 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/fakeLoader.min.js"></script>
+
+    <script type="text/javascript">
+        $("#fakeLoader").fakeLoader({
+            timeToHide:1200,
+            zIndex:1050,
+            spinner:"spinner2",
+            bgColor:"#2c2c2c"
+        });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
