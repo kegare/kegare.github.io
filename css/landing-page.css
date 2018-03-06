@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Noto Sans CJK JP Light"),
+       url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format('opentype');
+}
+
 body,
 html {
     width: 100%;
