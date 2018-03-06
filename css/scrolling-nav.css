@@ -23,7 +23,7 @@
 }
 
 .section-a {
-    width: 100vw;
+    width: 100%;
     height: auto;
     min-height: 100vh;
     padding-top: 120px;
@@ -33,7 +33,7 @@
 }
 
 .section-b {
-    width: 100vw;
+    width: 100%;
     height: auto;
     min-height: 100vh;
     padding-top: 120px;
