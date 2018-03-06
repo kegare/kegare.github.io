@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="kegare's Mods / For Minecraft Forge">
     <meta name="author" content="kegare">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
 
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -557,11 +558,15 @@
     <script src="js/fakeLoader.min.js"></script>
 
     <script type="text/javascript">
-        $("#fakeLoader").fakeLoader({
-            timeToHide:1200,
-            zIndex:1050,
-            spinner:"spinner2",
-            bgColor:"#2c2c2c"
+        $(function(){
+            $(document).ready(function(){
+                $("#fakeLoader").fakeLoader({
+                    timeToHide:1200,
+                    zIndex:1050,
+                    spinner:"spinner2",
+                    bgColor:"#2c2c2c"
+                });
+            });
         });
     </script>
 
