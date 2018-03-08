@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans CJK JP Light"),
+       url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format('opentype');
+  font-display: swap;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans JP","ÉÅÉCÉäÉI",Meiryo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+}
+
+.nav-text {
+  font-size: 14px;
+  margin: 0 4px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
