@@ -135,6 +135,13 @@ h6 {
     letter-spacing: 2px;
 }
 
+.fade-in {
+  transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
