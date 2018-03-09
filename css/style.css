@@ -229,12 +229,13 @@ h6 {
     display: block;
     content: '';
     position: absolute;
-    top: .5em;
-    left: -1em;
+    top: .6em;
+    left: -0.85em;
     width: 5px;
     height: 5px;
     background-color: #fff;
     border: 1px solid #ddd;
+    border-radius: 2px;
 }
 
 footer {
@@ -247,8 +248,8 @@ p.copyright {
 }
 
 ::selection {
-  background: #E0E0E0;
+    background: #E0E0E0;
 }
 ::-moz-selection {
-  background: #E0E0E0;
+    background: #E0E0E0;
 }

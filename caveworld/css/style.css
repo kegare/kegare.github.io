@@ -44,3 +44,10 @@ h6 {
 .icon-block .material-icons {
   font-size: inherit;
 }
+
+::selection {
+  background: #E0E0E0;
+}
+::-moz-selection {
+  background: #E0E0E0;
+}
