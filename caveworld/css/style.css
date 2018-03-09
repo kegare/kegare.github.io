@@ -20,6 +20,19 @@ h6 {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 480px) {
+  nav .brand-logo {
+    left: auto;
+    -webkit-transform: none;
+    transform: none;
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+}
+
 .nav-text {
   font-size: 14px;
   margin: 0 4px;
